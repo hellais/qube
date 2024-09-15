@@ -1,1 +1,40 @@
-This is page 1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Define URLs and corresponding weights
+        const urlWeights = [
+            {"url": "https://www.nyan.cat/", "weight": 1}
+        ];
+
+        const totalWeight = urlWeights.reduce((sum, current) => sum + current.weight, 0);
+
+        function getRandomURL() {
+            let randomNum = Math.random() * totalWeight;
+            for (let i = 0; i < urlWeights.length; i++) {
+                if (randomNum < urlWeights[i].weight) {
+                    return urlWeights[i].url;
+                }
+                randomNum -= urlWeights[i].weight;
+            }
+        }
+
+        function redirectToRandomURL() {
+            const selectedURL = getRandomURL();
+            window.location.href = selectedURL;
+        }
+
+        window.onload = function() {
+            setTimeout(redirectToRandomURL, 10);
+        };
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="#" onclick="redirectToRandomURL()">click here</a>.</p>
+</body>
+</html>

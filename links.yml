@@ -1,0 +1,24 @@
+# Nyan cat
+1:
+  - url: https://www.nyan.cat/
+    weight: 1
+# Anonymous
+2: 
+  - url: https://hackcur.io/the-birth-of-anonymous-2/
+    weight: 1
+# CCC Rocket
+3:
+  - url: https://events.ccc.de/en/camp/
+    weight: 1
+# OONI Octopus
+4:
+  - url: https://ooni.org/
+    weight: 1
+# Tor onion
+5:
+  - url: https://torproject.org/
+    weight: 1
+# Tux
+6:
+  - url: https://kernel.org/
+    weight: 1
