@@ -8,29 +8,47 @@
 2: 
   - url: https://hackcur.io/the-birth-of-anonymous-2/
     weight: 2
+  - url: https://www.youtube.com/watch?v=oavMtUWDBTM
+    weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
 # CCC Rocket
 3:
   - url: https://events.ccc.de/en/camp/
     weight: 2
+  - url: https://youtu.be/k6UPUwOm6es?si=ry7pz-t1nL3ciIgK
+    weight: 3
+  - url: https://youtu.be/Fa1RSTPRm4g?si=0CGWCk4-Nld8OcYK
+    weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
 # OONI Octopus
 4:
   - url: https://ooni.org/
     weight: 2
+  - url: https://www.youtube.com/watch?v=Qpd2JSAJ8aY
+    weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
 # Tor onion
 5:
-  - url: https://torproject.org/
+  - url: https://blog.torproject.org/
     weight: 2
+  - url: https://youtu.be/FnC8xGGEPRM?si=2Gwmi1Q3ZiKcpZNk
+    weight: 3
+  - url: https://youtu.be/8tqXSPkDbX4?si=AC2Al3tzcddiR_C-
+    weight: 3
+  - url: http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
+    weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
 # Tux
 6:
   - url: https://kernel.org/
-    weight: 1
+    weight: 2
+  - url: https://youtu.be/9sJUDx7iEJw
+    weight: 3
+  - url: https://www.openbsd.org/lyrics.html
+    weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
