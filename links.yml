@@ -2,13 +2,21 @@
 1:
   - url: https://www.nyan.cat/
     weight: 2
+  - url: https://www.albinoblacksheep.com/flash/llama
+    weight: 3
+  - url: https://www.albinoblacksheep.com/flash/boy
+    weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
 # Anonymous
 2: 
   - url: https://hackcur.io/the-birth-of-anonymous-2/
     weight: 2
+  - url: https://phrack.org/issues/65/13.html
+    weight: 3
   - url: https://www.youtube.com/watch?v=oavMtUWDBTM
+    weight: 3
+  - url: https://youtu.be/k6UPUwOm6es?si=ry7pz-t1nL3ciIgK
     weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
@@ -16,20 +24,20 @@
 3:
   - url: https://events.ccc.de/en/camp/
     weight: 2
-  - url: https://youtu.be/k6UPUwOm6es?si=ry7pz-t1nL3ciIgK
-    weight: 3
   - url: https://youtu.be/Fa1RSTPRm4g?si=0CGWCk4-Nld8OcYK
     weight: 3
-  - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  - url: https://www.youtube.com/watch?v=oavMtUWDBTM
     weight: 1
 # OONI Octopus
 4:
   - url: https://ooni.org/
-    weight: 2
+    weight: 1
+  - url: https://run.ooni.org/v2/10008
+    weight: 3
+  - url: https://www.youtube.com/watch?v=AjpfF2kQ9jA
+    weight: 3
   - url: https://www.youtube.com/watch?v=Qpd2JSAJ8aY
     weight: 3
-  - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    weight: 1
 # Tor onion
 5:
   - url: https://blog.torproject.org/
@@ -40,8 +48,10 @@
     weight: 3
   - url: http://vww6ybal4bd7szmgncyruucpgfkqahzddi37ktceo3ah7ngmcopnpyyd.onion
     weight: 3
-  - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    weight: 1
+  - url: https://www.localizationlab.org/blog/2019/4/14/internet-freedom-memes
+    weight: 4
+  - url: https://ahmia.fi/
+    weight: 3
 # Tux
 6:
   - url: https://kernel.org/
@@ -49,6 +59,8 @@
   - url: https://youtu.be/9sJUDx7iEJw
     weight: 3
   - url: https://www.openbsd.org/lyrics.html
+    weight: 3
+  - url: https://www.youtube.com/watch?v=BcxKINWMD8M
     weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1

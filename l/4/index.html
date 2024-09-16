@@ -8,9 +8,10 @@
     <script>
         // Define URLs and corresponding weights
         const urlWeights = [
-            {"url": "https://ooni.org/", "weight": 2},
-{"url": "https://www.youtube.com/watch?v=Qpd2JSAJ8aY", "weight": 3},
-{"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "weight": 1}
+            {"url": "https://ooni.org/", "weight": 1},
+{"url": "https://run.ooni.org/v2/10008", "weight": 3},
+{"url": "https://www.youtube.com/watch?v=AjpfF2kQ9jA", "weight": 3},
+{"url": "https://www.youtube.com/watch?v=Qpd2JSAJ8aY", "weight": 3}
         ];
 
         const totalWeight = urlWeights.reduce((sum, current) => sum + current.weight, 0);
