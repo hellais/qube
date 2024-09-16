@@ -14,17 +14,23 @@
     weight: 2
   - url: https://phrack.org/issues/65/13.html
     weight: 3
+  - url: https://www.apc.org/sites/default/files/images/LulzBoat.jpg
+    weight: 3
   - url: https://www.youtube.com/watch?v=oavMtUWDBTM
     weight: 3
   - url: https://youtu.be/k6UPUwOm6es?si=ry7pz-t1nL3ciIgK
     weight: 3
-  - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  - url: https://www.youtube.com/watch?v=oavMtUWDBTM
     weight: 1
 # CCC Rocket
 3:
   - url: https://events.ccc.de/en/camp/
     weight: 2
   - url: https://youtu.be/Fa1RSTPRm4g?si=0CGWCk4-Nld8OcYK
+    weight: 3
+  - url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Blinkenlights_CCC_at_22C3.jpg/1280px-Blinkenlights_CCC_at_22C3.jpg
+    weight: 3
+  - url: https://archive.org/details/die_hackerbibel_teil_2/mode/2up
     weight: 3
   - url: https://www.youtube.com/watch?v=oavMtUWDBTM
     weight: 1
@@ -35,6 +41,8 @@
   - url: https://run.ooni.org/v2/10008
     weight: 3
   - url: https://www.youtube.com/watch?v=AjpfF2kQ9jA
+    weight: 3
+  - url: https://github.com/ooni/probe-legacy/blob/2d31d5f14a0f3a7518d47fe748c1677cbd885828/ooni/utils/logo.py#L144
     weight: 3
   - url: https://www.youtube.com/watch?v=Qpd2JSAJ8aY
     weight: 3
