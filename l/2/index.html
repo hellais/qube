@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: "Courier New", Courier, monospace;
+      text-align: center;
+      margin-top: 20%;
+    }
+    .flashing {
+      animation: flash 1s infinite;
+      color: red;
+    }
+    @keyframes flash {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="flashing">ACCESS GRANTED</h1>
+  <p>If you are not redirected automatically, <a href="#" onclick="redirectToRandomURL()">click here</a>.</p>
     <script>
         // Define URLs and corresponding weights
         const urlWeights = [
@@ -37,9 +58,5 @@
             setTimeout(redirectToRandomURL, 10);
         };
     </script>
-</head>
-<body>
-    <h1>Redirecting...</h1>
-    <p>If you are not redirected automatically, <a href="#" onclick="redirectToRandomURL()">click here</a>.</p>
 </body>
 </html>
