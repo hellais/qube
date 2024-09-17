@@ -1,17 +1,19 @@
 # Nyan cat
 1:
-  - url: https://www.nyan.cat/
-    weight: 2
+  - url: http://ftp.sh/mp3/
+    weight: 3
+  - url: http://www.bbsdocumentary.com/library/PROGRAMS/DOORS/DOPEWARS/
+    weight: 3
   - url: https://www.albinoblacksheep.com/flash/llama
     weight: 3
   - url: https://www.albinoblacksheep.com/flash/boy
+    weight: 3
+  - url: https://wiby.me
     weight: 3
   - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     weight: 1
 # Anonymous
 2: 
-  - url: https://hackcur.io/the-birth-of-anonymous-2/
-    weight: 2
   - url: https://phrack.org/issues/65/13.html
     weight: 3
   - url: https://www.apc.org/sites/default/files/images/LulzBoat.jpg
@@ -19,6 +21,8 @@
   - url: https://www.youtube.com/watch?v=oavMtUWDBTM
     weight: 3
   - url: https://youtu.be/k6UPUwOm6es?si=ry7pz-t1nL3ciIgK
+    weight: 3
+  - url: http://www.textfiles.com/anarchy/JOLLYROGER/000.jrc
     weight: 3
   - url: https://www.youtube.com/watch?v=oavMtUWDBTM
     weight: 1
@@ -29,6 +33,10 @@
   - url: https://youtu.be/Fa1RSTPRm4g?si=0CGWCk4-Nld8OcYK
     weight: 3
   - url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Blinkenlights_CCC_at_22C3.jpg/1280px-Blinkenlights_CCC_at_22C3.jpg
+    weight: 3
+  - url: https://youtu.be/bAQqrnX7BsM
+    weight: 3
+  - url: https://suricrasia.online/iceberg/
     weight: 3
   - url: https://archive.org/details/die_hackerbibel_teil_2/mode/2up
     weight: 3
